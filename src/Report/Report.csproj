@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Cotrollers\ProductController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\ProductService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Cotrollers\ProductController.cs" />
+  </ItemGroup>
+
 </Project>
